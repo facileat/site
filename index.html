@@ -281,6 +281,9 @@ p{
     color: #777777;
 }
 
+.just_mobile{
+    display: none;
+}
 
 @media (max-width: 768px){
     a{
@@ -340,6 +343,14 @@ p{
     .text_rodape{
         font-size: 16px;
         text-align: center;
+    }
+    
+    .just_mobile{
+        display: block;
+    }
+
+    .hide_mobile{
+        display: none;
     }
 }
     
@@ -452,7 +463,7 @@ p{
         </div>
 
         <div class="rodape">
-            <p class="text_rodape">Desenvolvido por Facileat 2019 - Direitos reservados.</p>
+            <p class="text_rodape">Desenvolvido por Facileat 2019<span class="hide_mobile"> - </span><br class="just_mobile">Direitos reservados.</p>
         </div>
     </div>
 
