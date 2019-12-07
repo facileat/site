@@ -1,0 +1,472 @@
+<html>
+    <title> Facileat </title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Calistoga|Damion|Fredoka+One|Gloria+Hallelujah|Knewave|Leckerli+One|Modak|Pacifico&display=swap" rel="stylesheet">
+    <style>
+    
+    *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeffff;
+}
+
+a{
+    color: #1122bb;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+    font-size: 28px;
+    text-decoration: none;    
+}
+
+h1{
+    color: #1122bb;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+}
+
+p{
+    font-size: 18px;
+    font-family: 'comfortaa';
+    color: #111111;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: auto;
+    width: calc(100% - 100px);
+}
+
+.header{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: #ffee44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: impact;
+}
+
+
+
+
+
+
+
+
+.mid{
+    width: 100%;
+    margin: 40px 0px 70px 0px;
+}
+
+.qs{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 80px 0px;
+}
+
+.tqs{
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    display: flex;
+}
+
+.contqs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_foto{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    width: 60%;
+    height: auto;
+}
+
+.div_txt1{
+    width: 45%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.txt1{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.ms{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 70px 0px 70px 0px;
+}
+
+.tms{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 0px 40px 0px ;
+}
+
+.contms{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_text2{
+    width: 45%;
+    height: auto;
+}
+
+.text2{
+    width: 100%;
+}
+
+.div_foto2{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto2{
+    width: 60%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.pr{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tpr{
+    margin: 0px 0px 40px 0px;
+    display: flex;
+}
+
+.contpr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_foto3{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto3 {
+    width: 60%;
+    height: auto;
+}
+
+.div_text3{
+    width: 45%;
+    height: auto;
+}
+
+.text3{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    padding: 15px 50px 40px 50px;
+    background-color: #1122aa;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.h1_footer{
+    width: 250px;
+    text-align: right;
+    height: auto;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+    color: #ffee44;
+    margin-bottom: 0px;
+}
+
+.text_footer{
+    width: 45%;
+    height: auto;
+    color: #ffffff;
+    font-family: 'comfortaa';
+    font-size: 18px;
+}
+
+.text_link{
+    color: #ffee88;
+    font-family: 'comfortaa';
+    font-size: 18px;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_rodape{
+    color: #777777;
+}
+
+
+@media (max-width: 768px){
+    a{
+        margin: 10px 0px 10px 0px;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .banner{
+        height: inherit;
+    }
+
+    .menu{
+        flex-direction: column;
+        height: inherit;
+        margin: 20px 0px 20px 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .contqs{
+        flex-direction: column;
+    }
+
+    .div_txt1, .div_text2, .div_text3{
+        width: 100%;
+    }
+
+    .div_foto, .div_foto2, .div_foto3{
+        width: 100%;
+    }
+
+    .tqs, .tms, .tpr{
+        justify-content: center;
+    }
+
+    .contms{
+        flex-direction: column-reverse;
+    }
+
+    .contpr{
+        flex-direction: column;
+    }
+
+    .h1_footer{
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .text_footer{
+        width: 100%;
+    }
+
+    .text_rodape{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+    
+    </style>
+    </head>
+
+
+
+
+
+    <body>
+    <div class="tudo">    
+        <div class="container">
+            <div class="header">
+                <div class="banner">
+                    <img class="logo" src="img/logo.png">
+                </div>
+
+                <nav class="menu">
+                <a href="#qs"> Quem Somos? </a>
+                <a href="#ms"> Mídias Sociais </a>
+                <a href="#pr"> Produto </a>
+                <a href="#cc"> Como Comprar? </a>
+                </nav>
+            </div>
+            
+            <div class="mid">
+                <div class="qs">
+                    <a name="qs" id="qs"></a>
+                    <h1 class="tqs">Quem somos?</h1>
+                    <div class="contqs">
+                        <div class="div_foto">
+                            <img class="foto" src="img/duvidas.png">
+                        </div>
+
+                        <div class="div_txt1">
+                            <div class="txt1">
+                                <p> A Facileat é uma empresa agregada ao curso técnico do colégio Educandário
+                                    Santa Rita de Cássia. Foi designada a tarefa de fazer um Projeto Integrado de cunho
+                                    robótico, e assim, surgiu a ideia de fundar uma empresa de tecnologia e, por meio
+                                    dela, trazer interação e conhecimento sobre esse mundo aos nossos clientes. A cada
+                                    dia e para as necessidades relacionadas ao seu animal, a Facileat assegura garantir
+                                    aos seus clientes tranquilidade e paz, e sempre evoluindo para melhor se adaptar às
+                                    necessidades de seus consumidores</p>
+                                <p> O projeto foi idealizado pelo aluno do 3° ano (Fellipe Fornaciari), em conjunto com a equipe dos
+                                    outros anos letivos, integrando assim alunos do 2° e do 1° ano (Enrico Sionti, Kaillany Fritoli, Vitor Schiavetto, Ana Clara Vieira, Gabriel Perez, Leonardo Martins, Lorenzo Lima, Maria Luiza Borges e Robson Shinzato).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ms">
+                        <a name="ms" id="ms"></a>
+                        <h1 class="tms">Mídias sociais</h1>
+
+                    <div class="contms">
+
+                        <div class="div_text2">
+                            <div class="txt2">
+                                <p> Empresas de tecnologia geralmente tem dificuldade em transmitir sua marca
+                                    através das redes sociais. No entanto, existem muitas maneiras delas fazerem isso
+                                    de forma eficaz. Nosso principal objetivo é passar uma imagem e transmitir uma
+                                    mensagem positiva do nosso produto e da empresa, para propagar, conforto,
+                                    felicidade.</p>
+                                <p> O Facebook é a nossa principal mídia, onde postaremos imagens e vídeos
+                                    curtos, explicando a funcionalidade do produto e também podendo ter uma melhor
+                                    comunicação com o público, além de ser a rede social mais utilizada atualmente, visto
+                                    que todos estão conectados a ela, inclusive usuários que são donos de casa e/ou
+                                    criadores de projetos envolvidos direta ou indiretamente com a robótica.</p>
+                            </div>
+                        </div>
+
+                        <div class="div_foto2">
+                            <img class="foto2" src="img/gato.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pr">
+                        <a name="pr" id="pr"></a>
+                        <h1 class="tpr">Produto</h1>
+                    
+                    <div class="contpr">
+
+                        <div class="div_foto3">
+                            <img class="foto" src="img/ração.png">
+                        </div>
+        
+                        <div class="div_text3">
+                            <div class="text3">
+                                <p> Cada vez mais a tecnologia é implementada no cotidiano de todos nós para facilitar as nossas obrigações e podermos ser mais eficientes nas nossas obrigações. Visto tudo isso nós da Facileat pensamos em um alimentador de cães e gatos para tornar a alimentação do seu animal menos trabalhosa e mais pontual.</p>
+                                <p> Nosso alimentador automático para cães e gatos foi pensado para funcionar em conjunto com o nosso aplicativo desenvolvido para o mesmo. Ele é composto por um sistema eletrônico baseado em Arduino (uma placa de controle programável), que possibilita a programação de um horário para a parte mecânica composta por um motor e uma rosca serem ativados. Tudo isso será configurado e ativado através do nosso aplicativo. Nele há a opção para agendar horário com o visual de um botão onde abrirá uma janela de relógio eletrônico e também é possível fazer com que o alimentador ligue e desligue quando necessário utilizando o botão “ligar” e “desligar”. Antes de tudo é preciso conectar o celular ao Bluetooth do alimentador. Todas essas funções e possibilidades estão presentes no nosso alimentador.</p>                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <div>
+                <p class="text_footer">
+                    Para você adquirir o nosso produto tem duas formas. A primeira forma é através do nosso <a class="text_link" href="mailto:facileat.contato@gmail.com">e-mail</a> ou das nossas redes sociais, <a class="text_link" href="https://www.facebook.com/facileat2019/" target="_blank">Facebook</a> ou <a class="text_link" href="https://www.instagram.com/facileat.oficial/" target="_blank">Instagram</a>, entre em contato conosco e iremos conversar sobre forma de pagamento, entrega e responder alguma dúvida pendente. Outra forma possível é entrar em contato conosco pelo <a class="text_link" href="https://api.whatsapp.com/send?1=pt_BR&phone=551199572-7215" target="_blank">Whatsapp</a>, por lá nós conversaremos sobre o que citamos anteriormente.
+                </p>
+            </div>
+                <h1 class="h1_footer"> Como comprar? </h1>
+                <a name="cc" id="cc"></a>
+        </div>
+
+        <div class="rodape">
+            <p class="text_rodape">Desenvolvido por Facileat 2019 - Direitos reservados.</p>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            if(this.getAttribute('href') != "#"){
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth', block: 'start', inline: 'nearest'
+            });
+            }
+            });
+            });
+    </script>
+    </body>
+</html>
